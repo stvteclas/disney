@@ -4,15 +4,17 @@ package com.teclas.disney.service;
 import com.teclas.disney.dao.CharacterDao;
 import com.teclas.disney.domain.Character;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
 @Service
+
 public class CharacterServiceImpl implements CharacterService{
 
-    @Autowired
+@Autowired
     private CharacterDao characterDao;
 
     @Override

@@ -3,6 +3,7 @@ package com.teclas.disney.domain;
 
 import lombok.Data;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.stereotype.Repository;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotEmpty;
